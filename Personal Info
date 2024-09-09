@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        
+        string[] names = { "Alice Smith", "Bob Johnson", "Charlie Brown", "Diana Prince" };
+        string[] birthdates = { "March 15, 1985", "July 22, 1990", "October 5, 1982", "December 1, 1995" };
+        string[] workPhoneNumbers = { "(555) 123-4567", "(555) 234-5678", "(555) 345-6789", "(555) 456-7890" };
+        string[] cellPhoneNumbers = { "(555) 987-6543", "(555) 876-5432", "(555) 765-4321", "(555) 654-3210" };
+
+       
+        for (int i = 0; i < 4; i++)
+        {
+            Console.WriteLine("Unit Test " + (i + 1) + ":");
+            Console.WriteLine("Name: " + names[i]);
+            Console.WriteLine("Birthdate: " + birthdates[i]);
+            Console.WriteLine("Work Phone Number: " + workPhoneNumbers[i]);
+            Console.WriteLine("Cell Phone Number: " + cellPhoneNumbers[i]);
+            Console.WriteLine();
+        }
+    }
+}
